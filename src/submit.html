@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>wander — submit</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <div class="navigation ">
+
+            <!-- Title -->
+            <div class="logo tele-hide">
+                <a href="/src/index.html">wander.</a>
+            </div>
+
+            <!-- Menu -->
+            <div class="nav-block">
+                <div class="nav">
+                    <a href="/src/wall.html">Wall</a>
+                    <a href="/src/submit.html">Submit</a>
+                    <a href="/src/about.html">About</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- Container -->
+    <div class="container">
+        <h1>submit your post.</h1>
+        <form id="unsent-form" action="#" method="post">
+            <div class="textarea-container"> 
+                <textarea id="message" name="message" placeholder="Write your message here..." maxlength="2000"></textarea>
+                <div class="placeholder-cover"></div> 
+              </div>
+            <input type="submit" value="submit post">
+            <div class="sticky-note">
+                <p class="tag">#wander</p>
+                <p class="short_message">your post will be added to the wall anonymously.</p>
+            </div>
+        </form>
+    </div>
+
+    <script src="/public/js/placeholder.js"></script>
+    <script src="/public/js/submit.js"></script>
+</body>
+
+</html>
